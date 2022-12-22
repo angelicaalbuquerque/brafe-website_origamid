@@ -1,0 +1,57 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  color: #252525;
+}
+
+/* Menu */
+.menu {
+  background-color: #252525;
+  padding: 20px 0;
+}
+
+.menu-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-container::after,
+.menu-container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.menu-logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.menu-nav {
+  margin-right: 10px;
+  float: right;
+}
+
+.menu-nav li {
+  display: inline-block;
+}
+
+.menu-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: calc(18em / 16);
+  border: 1px solid blue;
+}
