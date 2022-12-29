@@ -1,4 +1,8 @@
 /* Reset CSS */
+* {
+  box-sizing: border-box;
+}
+
 body,
 h1,
 h2,
@@ -267,3 +271,105 @@ h2.produtos-mineiro::before {
   border: 3px solid currentColor;
   padding: 10px 20px;
 }
+
+/* Assine */
+.assine {
+  background: #e7e4d8;
+  padding: 30px 0;
+}
+
+.assine-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.assine-container::after,
+.assine-container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.assine-info {
+  width: 460px;
+  margin: 0 10px;
+  float: left;
+}
+
+.assine-info h2 {
+  font-size: calc(36em / 16);
+}
+
+.assine-info p {
+  font-size: calc(24em / 16);
+  font-style: italic;
+}
+
+.assine form {
+  width: 460px;
+  margin: 10px 10px 0 10px;
+  float: left;
+}
+
+.assine form label {
+  display: none;
+  /* visibility: hidden;
+  position: absolute; */
+}
+
+.assine input {
+  width: 320px;
+  border: 3px solid #252525;
+  background: none;
+  font-size: calc(24em / 16);
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding: 10px;
+  float: left;
+}
+
+.assine button {
+  width: 140px;
+  font-size: calc(24em / 16);
+  background: #252525;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  padding: 13px 0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+
+/* Footer */
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-container::after,
+.footer-container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: calc(18em / 16);
+  line-height: calc(22.4em / 16);
+}
+
+.footer img {
+  float: right;
+  margin: 0 10px;
+  display: block;
+}
+
+/* Note: usa-se clearfix somente quando todos os elementos que estão dentro do container estão flutuando. */
