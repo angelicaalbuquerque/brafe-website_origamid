@@ -19,9 +19,9 @@
 
 <p align="center">
   <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;|&nbsp;
-  <!-- <a>
-    <a href="#-Sobre">Layout</a>&nbsp;&nbsp;|&nbsp;
-  <a> -->
+  <a>
+    <a href="#-Acessar">Acessar o projeto</a>&nbsp;&nbsp;|&nbsp;
+  <a>
   <a href="#-Entre-em-contato">Contato</a>
 </p>
 
@@ -41,7 +41,7 @@ Serão criados 3 projetos diferentes durante o curso. Cada um dos projetos será
 - A terceira com o Flexbox;
 - E por último usando o Bootstrap.
 
-O início de cada layout será feito sempre da mesma forma, começando totalmente do zero, sem carregar nada pré pronto, nenhum reset e nada mais além de um simples index.html e um style.css.
+O início de cada layout será feito sempre da mesma forma, começando totalmente do zero, sem carregar nada pré pronto, nenhum reset e nada mais além de um simples _index.html_ e um _style.css_.
 
 A expectativa é que, ao final do curso, o aluno alcance nível intermediário/avançado em CSS e consiga criar layouts complexos com facilidade.
 
@@ -51,13 +51,9 @@ Neste primeiro projeto do curso, foi criado um site de uma cafeteria fictícia, 
 
 </p>
 
-<!-- ## 🔖 Layout
+## 🌐 Acessar o projeto
 
-<div align="left">
-    <img src=".github\Capa.png" width="400"/>
-</div>
-
-Você pode visualizar o layout do projeto através [deste link](#), no [Figma](http://figma.com/). -->
+Você pode visualizar o resultado do projeto através [deste link](https://brafe-website-origamid.vercel.app/), no [Vercel](https://vercel.com/). Trata-se da publicação do Brafé na forma mais pura e responsiva.
 
 ## 📬 Entre em contato!
 
