@@ -28,12 +28,24 @@ img {
 
 .menu {
   background: #252525;
+  padding: 15px 0;
+}
+
+.menu-nav {
+  float: right;
+}
+
+.menu-nav ul li {
+  display: inline-block;
 }
 
 .menu-nav a {
   text-decoration: none;
-  color: #fff;
-  font-size: 1.125em;
+  color: white;
+  font-size: calc(18em / 16);
+  display: block;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 /* Intro */
@@ -41,12 +53,14 @@ img {
 .intro {
   background: url("../img/bg-intro.jpg") no-repeat center center;
   background-size: cover;
-  color: #fff;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
 }
 
 .intro h1 {
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: calc(48em / 16);
 }
 
 .intro h1::after {
@@ -54,25 +68,26 @@ img {
   display: block;
   width: 20px;
   height: 4px;
-  background: #fff;
+  background: white;
+  margin: 10px auto;
 }
 
 .intro p {
   font-style: italic;
-  font-size: 1.125em;
+  font-size: calc(18em / 16);
 }
 
 /* Sobre */
 
 .sobre h2 {
-  font-size: 2.25em;
+  font-size: calc(36em / 16);
 }
 
 .sobre-item h3 {
-  font-size: 2.25em;
-  line-height: 1em;
+  font-size: calc(36em / 16);
+  line-height: calc(16em / 16);
   background: #252525;
-  color: #fff;
+  color: white;
   font-style: italic;
   font-weight: normal;
   text-align: center;
@@ -80,8 +95,8 @@ img {
 }
 
 .sobre > p {
-  font-size: 1.125em;
-  line-height: 1.4em;
+  font-size: calc(18em / 16);
+  line-height: calc(22.4em / 16);
   font-style: italic;
 }
 
@@ -94,7 +109,7 @@ img {
 }
 
 .produtos-item h2 {
-  font-size: 2.25em;
+  font-size: calc(36em / 16);
 }
 
 .produtos-item h2::before {
@@ -121,8 +136,8 @@ h2.produtos-mineiro::before {
 }
 
 .produtos-item p {
-  font-size: 0.875em;
-  line-height: 1.4em;
+  font-size: calc(14em / 16) em;
+  line-height: calc(22.4em / 16);
 }
 
 .produtos-btn {
@@ -130,7 +145,7 @@ h2.produtos-mineiro::before {
   color: #252525;
   text-decoration: none;
   text-align: center;
-  font-size: 1.125em;
+  font-size: calc(18em / 16);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -138,16 +153,16 @@ h2.produtos-mineiro::before {
 /* Locais */
 
 .locais-item h2 {
-  font-size: 2.25em;
+  font-size: calc(36em / 16);
 }
 
 .locais-item p {
-  font-size: 1.125em;
-  line-height: 1.4em;
+  font-size: calc(18em / 16);
+  line-height: calc(22.4em / 16);
 }
 
 .locais-item a {
-  font-size: 1.125em;
+  font-size: calc(18em / 16);
   text-transform: uppercase;
   text-decoration: none;
   border: 3px solid;
@@ -161,11 +176,11 @@ h2.produtos-mineiro::before {
 }
 
 .assine-info h2 {
-  font-size: 2.25em;
+  font-size: calc(36em / 16);
 }
 
 .assine-info p {
-  font-size: 1.5em;
+  font-size: calc(24em / 16);
   font-style: italic;
 }
 
@@ -176,7 +191,7 @@ h2.produtos-mineiro::before {
 .assine input {
   border: 3px solid #252525;
   background: none;
-  font-size: 1.5em;
+  font-size: calc(24em / 16);
   font-style: italic;
   font-family: Georgia, serif;
 }
@@ -186,8 +201,8 @@ h2.produtos-mineiro::before {
   border: none;
   font-family: Georgia, serif;
   text-transform: uppercase;
-  font-size: 1.5em;
-  color: #fff;
+  font-size: calc(24em / 16);
+  color: white;
   cursor: pointer;
 }
 
@@ -198,6 +213,24 @@ h2.produtos-mineiro::before {
 }
 
 .footer p {
-  font-size: 1.125em;
-  line-height: 1.4em;
+  font-size: calc(18em / 16);
+  line-height: calc(22.4em / 16);
+}
+
+/* Breakpoints */
+
+@media (max-width: 739px) {
+  .menu-nav ul {
+    float: none;
+  }
+
+  .menu-nav ul li a {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 8px;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
 }
