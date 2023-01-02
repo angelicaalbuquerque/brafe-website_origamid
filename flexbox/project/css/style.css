@@ -132,10 +132,13 @@ img {
   background: #e7e4d8;
   border-top: 3px solid #d6d3c8;
   border-bottom: 3px solid #d6d3c8;
+  padding: 60px 0;
 }
 
 .produtos-item h2 {
   font-size: calc(36em / 16);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .produtos-item h2::before {
@@ -147,6 +150,7 @@ img {
   border-radius: 50%;
   border: 5px solid #e7e4d8;
   box-shadow: 0 0 0 5px currentColor;
+  margin: 20px auto;
 }
 
 h2.produtos-paulista::before {
@@ -159,6 +163,11 @@ h2.produtos-carioca::before {
 
 h2.produtos-mineiro::before {
   color: #d7a54d;
+}
+
+.produtos-item {
+  margin: 0 10px 40px 10px;
+  flex: 1;
 }
 
 .produtos-item p {
@@ -174,17 +183,42 @@ h2.produtos-mineiro::before {
   font-size: calc(18em / 16);
   font-weight: bold;
   text-transform: uppercase;
+  display: block;
+  width: 180px;
+  padding: 15px 0;
+  margin: 20px auto 0 auto;
 }
 
 /* Locais */
+.locais {
+  padding: 60px 0;
+}
+
+.locais-item {
+  margin-bottom: 40px;
+}
+
+.locais-img,
+.locais-info {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.locais-img img {
+  display: block;
+  max-width: 100%;
+}
 
 .locais-item h2 {
   font-size: calc(36em / 16);
+  margin-bottom: 20px;
 }
 
 .locais-item p {
   font-size: calc(18em / 16);
   line-height: calc(22.4em / 16);
+  max-width: 320px;
+  margin-bottom: 40px;
 }
 
 .locais-item a {
@@ -193,6 +227,7 @@ h2.produtos-mineiro::before {
   text-decoration: none;
   border: 3px solid;
   color: #252525;
+  padding: 10px 20px;
 }
 
 /* Assine */
