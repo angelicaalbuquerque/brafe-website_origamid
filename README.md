@@ -20,7 +20,7 @@
 <p align="center">
   <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;|&nbsp;
   <a>
-    <a href="#-Acessar">Acessar o projeto</a>&nbsp;&nbsp;|&nbsp;
+    <a href="#-Acessar-o-projeto">Acessar o projeto</a>&nbsp;&nbsp;|&nbsp;
   <a>
   <a href="#-Entre-em-contato">Contato</a>
 </p>
@@ -51,7 +51,7 @@ Neste primeiro projeto do curso, foi criado um site de uma cafeteria fictícia, 
 
 </p>
 
-## 🌐 Acessar o projeto
+## 💻 Acessar o projeto
 
 Você pode visualizar o resultado do projeto através [deste link](https://brafe-website-origamid.vercel.app/), no [Vercel](https://vercel.com/). Trata-se da publicação do Brafé na forma mais pura e responsiva.
 
