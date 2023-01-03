@@ -37,8 +37,13 @@ img {
   padding: 15px 0;
 }
 
+.menu-logo {
+  margin: 0 10px;
+}
+
 .menu-nav {
   flex: 1;
+  margin: 0 10px;
   align-self: center;
 }
 
@@ -302,4 +307,61 @@ h2.produtos-mineiro::before {
 
 .footer-img {
   margin: 0 10px;
+}
+
+/* Breakpoints */
+@media (max-width: 739px) {
+  .container {
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .menu-nav {
+    margin: 0;
+  }
+
+  .menu-logo {
+    margin: 0 auto 10px auto;
+  }
+
+  .menu-nav ul li a {
+    padding-left: 0;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
+
+  .sobre-item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .produtos-item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .produtos-item p {
+    text-align: center;
+  }
+
+  .locais-img,
+  .locais-info {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.assine-info {
+  margin: 0 0 20px 0;
+}
+
+.assine form {
+  margin: 0;
+}
+
+.footer-img,
+.footer p {
+  margin: 10px 0;
 }
