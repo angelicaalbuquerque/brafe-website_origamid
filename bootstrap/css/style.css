@@ -85,7 +85,8 @@ img {
 /* Sobre */
 
 .sobre {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .sobre h2 {
@@ -196,6 +197,7 @@ h2.produtos-mineiro::before {
 }
 
 .locais-item {
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -225,6 +227,8 @@ h2.produtos-mineiro::before {
 
 .assine {
   background: #e7e4d8;
+  padding: 30px 0;
+  font-weight: bold;
 }
 
 .assine-info h2 {
@@ -240,12 +244,21 @@ h2.produtos-mineiro::before {
   display: none;
 }
 
+.assine form {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
 .assine input {
   border: 3px solid #252525;
   background: none;
   font-size: calc(24em / 16);
   font-style: italic;
   font-family: Georgia, serif;
+  align-self: flex-start;
+  padding: 10px;
 }
 
 .assine button {
@@ -256,17 +269,25 @@ h2.produtos-mineiro::before {
   font-size: calc(24em / 16);
   color: white;
   cursor: pointer;
+  align-self: flex-start;
+  padding: 13px;
 }
 
 /* Footer */
 
 .footer {
   background: #d6d3c8;
+  padding: 40px auto;
 }
 
 .footer p {
   font-size: calc(18em / 16);
   line-height: calc(22.4em / 16);
+}
+
+.footer img {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Breakpoints */
