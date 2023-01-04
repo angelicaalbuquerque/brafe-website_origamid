@@ -28,6 +28,7 @@ img {
 
 .menu {
   background: #252525;
+  padding: 15px 0;
 }
 
 .menu-nav a {
@@ -36,17 +37,35 @@ img {
   font-size: calc(18em / 16);
 }
 
+.menu-nav ul {
+  float: right;
+  list-style: none;
+}
+
+.menu-nav ul li {
+  display: inline-block;
+}
+
+.menu-nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+}
+
 /* Intro */
 
 .intro {
   background: url("../img/bg-intro.jpg") no-repeat center center;
   background-size: cover;
   color: white;
+  padding: 150px 0;
+  text-align: center;
 }
 
 .intro h1 {
   text-transform: uppercase;
   font-size: calc(48em / 16);
+  font-weight: bold;
 }
 
 .intro h1::after {
@@ -55,6 +74,7 @@ img {
   width: 20px;
   height: 4px;
   background: white;
+  margin: 20px auto;
 }
 
 .intro p {
@@ -64,8 +84,15 @@ img {
 
 /* Sobre */
 
+.sobre {
+  padding: 60px 0;
+}
+
 .sobre h2 {
   font-size: calc(36em / 16);
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: bold;
 }
 
 .sobre-item h3 {
@@ -77,12 +104,18 @@ img {
   font-weight: normal;
   text-align: center;
   position: relative;
+  width: 220px;
+  padding: 5px 0 10px 0;
+  top: -25px;
 }
 
 .sobre > p {
   font-size: calc(18em / 16);
   line-height: calc(22.4em / 16);
   font-style: italic;
+  max-width: 460px;
+  text-align: center;
+  margin: 20px auto;
 }
 
 /* Produtos */
@@ -200,4 +233,26 @@ h2.produtos-mineiro::before {
 .footer p {
   font-size: calc(18em / 16);
   line-height: calc(22.4em / 16);
+}
+
+/* Breakpoints */
+
+@media (max-width: 768px) {
+  .menu-nav ul {
+    float: none;
+    text-align: center;
+  }
+
+  .menu-nav ul li a {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .menu-logo img {
+    margin: 0 auto;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
 }
