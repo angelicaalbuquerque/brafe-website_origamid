@@ -20,16 +20,12 @@
 <p align="center">
   <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;|&nbsp;
   <a>
-    <a href="#-Acessar-o-projeto">Acessar o projeto</a>&nbsp;&nbsp;|&nbsp;
+    <a href="#-Acessar-os-projetos">Acessar os projetos</a>&nbsp;&nbsp;|&nbsp;
   <a>
   <a href="#-Entre-em-contato">Contato</a>
 </p>
 
 ## 📚 Sobre
-
-<div align="left">
-    <img src="https://www.origamid.com/thumb/projetos/css-avancado-posicionamento/brafe-1.jpg" width="500"/>
-</div>
 
 <p>
 No curso de "CSS Avançado – Posicionamento", da Origamid, o aluno aprende a partir dos fundamentos como posicionar os elementos em uma página. O foco é passar de maneira exaustiva os fundamentos das propriedades e como elas agem no layout do site.
@@ -45,15 +41,44 @@ O início de cada layout será feito sempre da mesma forma, começando totalment
 
 A expectativa é que, ao final do curso, o aluno alcance nível intermediário/avançado em CSS e consiga criar layouts complexos com facilidade.
 
-### Brafé 1 - Website
-
-Neste primeiro projeto do curso, foi criado um site de uma cafeteria fictícia, o Brafé, de cafés do Brasil. O site foi desenvolvido utilizando HTML e CSS, com o objetivo de praticar os conceitos de posicionamento de elementos comuns em um site - como header, main, footer, entre outros.
-
 </p>
 
-## 💻 Acessar o projeto
+## 💻 Acessar os projetos
 
-Você pode visualizar o resultado do projeto através [deste link](https://brafe-website-origamid.vercel.app/), no [Vercel](https://vercel.com/). Trata-se da publicação do Brafé na forma mais pura e responsiva.
+Os estudos foram publicamos no [Vercel](https://vercel.com/), com o CSS mais puro e responsivo.
+
+### Brafé - Projeto 1: Website
+
+<div align="left">
+    <img src="https://www.origamid.com/thumb/projetos/css-avancado-posicionamento/brafe-1.jpg" width="420"/>
+</div>
+
+No primeiro projeto do curso, foi criado um site de uma cafeteria fictícia, o Brafé, de cafés do Brasil. O site foi desenvolvido utilizando HTML e CSS, com o objetivo de praticar os conceitos de posicionamento de elementos comuns em um site - como header, main, nav, footer, entre outros.
+
+🌐 [Visualizar website do projeto](https://brafe-website-origamid.vercel.app/) <br/>
+💻 [Visualizar códigos do projeto](https://github.com/angelicaalbuquerque/brafe-website_origamid)
+
+### Brafé - Projeto 2: E-commerce
+
+<div align="left">
+    <img src="https://www.origamid.com/thumb/projetos/css-avancado-posicionamento/brafe-2.jpg" width="420"/>
+</div>
+
+Já no segundo projeto do curso, expandimos a marca Brafé para um e-commerce, seguindo o desenvolvimento com, simplesmente, HTML e CSS. Trabalhamos centralização de elementos, listagem de produtos e, até mesmo, estilização de uma sidebar simulando uma filtragem desses produtos.
+
+🌐 [Visualizar website do projeto](https://brafe-e-commerce-origamid.vercel.app/) <br/>
+💻 [Visualizar códigos do projeto](https://github.com/angelicaalbuquerque/brafe-e-commerce_origamid)
+
+### Brafé - Projeto 3: Aplicativo web
+
+<div align="left">
+    <img src="https://www.origamid.com/thumb/projetos/css-avancado-posicionamento/brafe-3.jpg" width="420"/>
+</div>
+
+No terceiro e último projeto do curso para consolidarmos os conhecimentos de CSS, foi implementado o aplicativo web do Brafé, com ideia de servir como uma plataforma de gestão de conteúdo do website e do e-commerce, para que as pessoas possam editar cada página, publicação e produto.
+
+🌐 [Visualizar website do projeto](https://brafe-app-origamid.vercel.app/) <br/>
+💻 [Visualizar códigos do projeto](https://github.com/angelicaalbuquerque/brafe-app_origamid)
 
 ## 📬 Entre em contato!
 
